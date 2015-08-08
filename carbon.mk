@@ -7,4 +7,4 @@ $(call inherit-product, vendor/cm/config/common_full_phone.mk)
 $(call inherit-product, vendor/cm/config/nfc_enhanced.mk)
 
 PRODUCT_RELEASE_NAME := DROID Ultra
-PRODUCT_NAME := cm_obake
+PRODUCT_NAME := carbon_obake
