@@ -1,10 +1,10 @@
 $(call inherit-product, device/motorola/obake/full_obake.mk)
 
-# Inherit some common CM stuff.
-$(call inherit-product, vendor/cm/config/common_full_phone.mk)
+# Inherit some common Carbon stuff.
+$(call inherit-product, vendor/carbon/config/common_full_phone.mk)
 
 # Enhanced NFC
-$(call inherit-product, vendor/cm/config/nfc_enhanced.mk)
+$(call inherit-product, vendor/carbon/config/nfc_enhanced.mk)
 
-PRODUCT_RELEASE_NAME := DROID Ultra
+PRODUCT_RELEASE_NAME := DROID MAXX
 PRODUCT_NAME := carbon_obake
